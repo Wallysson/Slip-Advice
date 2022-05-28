@@ -15,7 +15,7 @@ export const Circle = styled.main`
   }
 
   @media (max-width: 450px) {
-    width: 95%;
+    min-width: 95%;
     height: 50vh;
   }
 `
