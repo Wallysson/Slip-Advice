@@ -10,12 +10,12 @@ export const Circle = styled.main`
   width: 35vw;
 
   @media (max-width: 900px) {
-    width: 95%;
+    width: 80vw;
     height: 60vh;
   }
 
   @media (max-width: 450px) {
-    min-width: 95%;
+    width: 90vw;
     height: 50vh;
   }
 `
