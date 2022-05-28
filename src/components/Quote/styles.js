@@ -30,9 +30,9 @@ export const InnerCircle = styled.div`
     line-height: 3rem;
 
     @media (max-width: 450px) {
-      font-size: 1rem;
+      font-size: 1.25rem;
       padding: 0;
-      line-height: 1rem;
+      line-height: 2rem;
     }
   }
 `
