@@ -7,5 +7,6 @@ export const Header = styled.header`
 
   small {
     color: white;
+    font-weight: 700;
   }
 `
