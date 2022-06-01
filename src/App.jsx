@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Quote from './components/Quote'
-import styled from "styled-components";
+import DataFormat from './components/DataFormat';
 import ButtonQuote from './components/ButtonQuote';
 import { Container } from './styles/style';
 
@@ -16,6 +16,7 @@ export function App() {
 
   return (
     <Container>
+      <DataFormat />
       <Quote quotes={quote}/>
       <ButtonQuote action={generateNewQuote}/>
     </Container>
